@@ -59,6 +59,10 @@ body{
     #header ul li{font-size: 13px;
     padding: 10px;}
 }
+@media(max-width:480px){
+    #header ul li{font-size: 13px;
+    padding: 6px;}
+}
 
 
 
@@ -75,7 +79,7 @@ body{
 }
 .banner_info{}
 .banner .banner_info span{
-    color: #6DAC54;
+    color: lightgreen;
     font-weight: bold;
     display: block;
     padding: 10px;
@@ -93,6 +97,8 @@ body{
     font-size: 20px;
     color: #d6d1d1;
     margin: 10px;
+    font-weight: 600;
+    font-style: italic;
 }
 @media(max-width:1024px){
     .banner .banner_info span{
@@ -113,13 +119,27 @@ body{
     }
 }
 @media(max-width:480px){
+    .banner{
+        height: 600px;
+    }
     .banner .banner_info{
         left: 0%;
     }
     .banner .banner_info span{
         padding: 0px;
         left: 0%;
-        font-size: 30px;
+        font-size: 26px;
+        top: 31%;
+        margin: 0px;
+        text-align: center;
+
+    }
+    .banner .banner_info p{
+        font-size: 17px;
+        top: 43%;
+        font-weight: 600;
+        font-style: italic;
+
     }
     
 }
